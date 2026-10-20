@@ -47,7 +47,7 @@ If multiple materially incompatible referents remain after current-message and d
 1. Verify exact project identity.
 2. Load `AGENT_BOOTSTRAP.json`.
 3. Load this reference as orientation only.
-4. Load MASTER_HANDOFF and accepted Artifactory state.
+4. Read MASTER_HANDOFF and the authorized native Library board only if its host capabilities and independent-session readback are verified; otherwise record a transport HOLD and continue standalone safe work.
 5. Recover the current objective/task.
 6. Verify role, write scope, approvals, dependencies, collisions, versions, and leases.
 7. Execute autonomously within authority.

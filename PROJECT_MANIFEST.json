@@ -54,7 +54,7 @@
   ],
   "registration": {
     "central_registry": "boberino93-bit/intercommunicationsenhancements:PROJECT_ROLE_ROUTING_REGISTRY.json",
-    "state": "PENDING_AGENTBUS_HOST_VERIFICATION"
+    "state": "REGISTERED_DISCOVERY_ONLY_NOT_OPERATIONAL"
   },
   "project_file_linkage": "PROJECT_FILE_LINKAGE.json",
   "agentbus_configuration": "AGENTBUS_CONFIG.json",

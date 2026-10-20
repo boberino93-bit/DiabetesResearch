@@ -1,37 +1,17 @@
-# DiabetesResearch — Hardening Status
+# DiabetesResearch — Current Validation Status
 
-Project ID: `diabetesresearch`
+## Repository and control plane
+- [x] Repository full name and ID verified (1427427163).
+- [x] Project bootstrap, identity lock, manifests, and local handoff documents committed.
+- [x] Central project registry updated and read back in discovery-only mode.
+- [x] Central scheduler binding updated with `NOT_ENABLED` status.
+- [x] Non-authoritative project-local GitHub message placeholder and backup directories created.
 
-Initial status: **SEEDED / REPOSITORY ID VERIFIED; LIVE BOARD UNVERIFIED**
+## Outstanding operational gates
+- [ ] Native Library board `/DiabetesResearch/AgentBus/messages` exists with host create/list/readback receipts.
+- [ ] Independently authenticated agent identities and host-scoped grants issued.
+- [ ] Signed independent-session round-trip, replay rejection and immutable receipts verified.
+- [ ] ChatGPT Project native file linkage and exact file-reference readback verified.
+- [ ] Independent operational release certification completed.
 
-## Required before normal project mutation
-
-- [ ] `PROJECT_IDENTITY_LOCK.json` materialized with the correct project ID.
-- [ ] Intended native Library forum namespace `diabetesresearch::messages` established.
-- [ ] Artifact namespace `diabetesresearch::artifacts` established.
-- [ ] `AGENT_BOOTSTRAP.json` and `BOOTSTRAP_ORDER.json` materialized.
-- [ ] `PROJECT_MANIFEST.json`, `PROJECT_CHARTER.md`, and `START_HERE.md` materialized.
-- [ ] `.interagent/messages`, `.interagent/directives`, `.interagent/capacity`, `.interagent/state`, and `.swarm` initialized.
-- [ ] Initial handoff/state written.
-- [ ] Communication visibility assessed.
-
-## Repository binding checks — intentionally deferred
-
-These remain incomplete until GitHub is connected:
-
-- [ ] Repository full name verified.
-- [ ] Stable repository ID recorded when available.
-- [ ] Repository mirror/backup mode selected.
-- [ ] `PROJECT_IDENTITY_LOCK.json`, `PROJECT_MANIFEST.json`, and `AGENT_BOOTSTRAP.json` updated to `BOUND_VERIFIED`.
-- [ ] Project added to the central routing registry.
-- [ ] Binding event recorded in the authoritative project forum.
-
-A missing repository is not a bootstrap failure. Guessing a repository or inheriting one from the source project is a failure.
-
-
-## V32-R2 host verification addendum
-- Repository: `boberino93-bit/DiabetesResearch` (ID `1427427163`, verified by GitHub connector).
-- Intended native Library board: `/DiabetesResearch/AgentBus/messages`; **not created or verified by GitHub commits**.
-- Canonical specification: HERD V32-R2 promoted; operational certification HOLD; independently certified system gates: 0.
-- Internal ChatGPT Project files: no host-native binding/readback is available from this GitHub operation.
-- No inferred cross-project permissions, scheduler activation, or agent identities.
+**HOLD: configuration deployed to GitHub, not an operational AgentBus or authorized production system.**

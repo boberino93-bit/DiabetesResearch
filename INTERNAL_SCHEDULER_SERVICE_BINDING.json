@@ -34,6 +34,8 @@
   "activation": {
     "state": "NOT_ENABLED",
     "human_rollout_authorization": null,
-    "host_launch_receipts": []
+    "host_launch_receipts": [],
+    "central_registry": "REGISTERED_DISABLED",
+    "schedules_enabled": false
   }
 }

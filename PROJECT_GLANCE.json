@@ -10,7 +10,7 @@
     "Internal ChatGPT Project files have not been linked through a host-native interface."
   ],
   "next_action": "Complete project-local bootstrap/charter work and refresh this snapshot on the first material transition.",
-  "last_material_change": "GitHub project configuration authored; operational capabilities not activated.",
+  "last_material_change": "GitHub bootstrap source committed; central discovery registration verified, scheduler disabled; no host Library or Project file linkage receipts.",
   "evidence_refs": [
     "AGENT_BOOTSTRAP.json",
     "PROJECT_MANIFEST.json",
