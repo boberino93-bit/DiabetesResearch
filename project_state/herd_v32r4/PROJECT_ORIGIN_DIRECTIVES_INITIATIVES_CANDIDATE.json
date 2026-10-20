@@ -1,0 +1,49 @@
+{
+  "schema": "herd/v32r4/project-origin-directive-initiative-candidate/v1",
+  "status": "CANDIDATE_ONLY_NOT_ACTIVE_NOT_OWNER_CHRONOVALIDATED",
+  "project_id": "diabetesresearch",
+  "repository": "boberino93-bit/DiabetesResearch",
+  "repository_id": 1427427163,
+  "priority": {
+    "proposed": "P2",
+    "approved": false
+  },
+  "project_origin": {
+    "description": "Independent diabetes research and reproducible verification; original ChatGPT Project MD not retrieved.",
+    "verified_original_internal_md": false
+  },
+  "initiatives": [
+    {
+      "statement": "Source-quality-gated medical research",
+      "accepted": false
+    },
+    {
+      "statement": "Reproducible evidence synthesis",
+      "accepted": false
+    },
+    {
+      "statement": "Research provenance and uncertainty tracking",
+      "accepted": false
+    }
+  ],
+  "candidate_standing_directives": [
+    {
+      "statement": "Never publish private medical data in GitHub",
+      "authority": "REQUIRES_CHRONOVALIDATION"
+    },
+    {
+      "statement": "Do not claim unverified original project directives are approved",
+      "authority": "REQUIRES_CHRONOVALIDATION"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "path": "AGENT_CONTEXT_REFERENCE.md",
+      "github_blob_sha1": "41f27bb13e69bd3a537e5ae4703ee7aca41fa89a",
+      "authority": "GITHUB_SEED_ORIENTATION_ONLY"
+    }
+  ],
+  "unavailable_sources": "UNINSPECTED_NOT_ABSENT",
+  "auto_activate": false,
+  "privacy": "PROJECT_LOCAL_NO_SENSITIVE_EXPORT"
+}

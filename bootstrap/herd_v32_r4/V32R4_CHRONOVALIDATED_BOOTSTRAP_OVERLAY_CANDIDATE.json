@@ -1,0 +1,29 @@
+{
+  "schema": "herd/v32r4/project-origin-chronology-bootstrap-overlay/v1",
+  "status": "CANDIDATE_NOT_ACTIVATED",
+  "project_id": "diabetesresearch",
+  "exact_repository": "boberino93-bit/DiabetesResearch",
+  "exact_repository_id": 1427427163,
+  "authorization_case": "AUTH-HERD-V32R4-STAGE-20261020T213131Z-4FC174A183",
+  "rollout_plan_sha256": "0ca8dfcf11a8524ceca5b79b6faff7b892509cd12eef12a0d14bbc33b5400bde",
+  "required_boot_order": [
+    "VERIFY_EXACT_PROJECT_ID",
+    "PRESERVE_EXISTING_SECURITY_ADMISSION",
+    "VERIFY_REGISTERED_OWNER_START_AUTHORIZATION",
+    "READ_APPROVED_GITHUB_PROJECT_STATE",
+    "CHRONOVALIDATE_ORIGIN_DIRECTIVES_AND_HANDOFF",
+    "EXECUTE_ONLY_AUTHORIZED_WORK",
+    "REQUIRE_FRESH_MUTATION_AUTHORIZATION",
+    "MINIMAL_ADDITIVE_SHA_CHECKED_COMMIT",
+    "READBACK_AND_IMMUTABLE_HANDOFF"
+  ],
+  "context_candidate_path": "project_state/herd_v32r4/PROJECT_ORIGIN_DIRECTIVES_INITIATIVES_CANDIDATE.json",
+  "current_version": "V32-R4_CANDIDATE_NOT_ACTIVE",
+  "r2_r3_legacy": "PRESERVE_HISTORICAL",
+  "native_library_agentbus": "NOT_VERIFIED",
+  "version_retention": {
+    "max_operating_versions": 3,
+    "candidate_excluded": true,
+    "deletion_requires_archive_and_fresh_case": true
+  }
+}
