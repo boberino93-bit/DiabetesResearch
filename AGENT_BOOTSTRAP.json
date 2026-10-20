@@ -18,7 +18,10 @@
       "path": null
     },
     "capability_status": "NOT_VERIFIED",
-    "cross_session_visibility_verified": false
+    "cross_session_visibility_verified": false,
+    "message_board": "/DiabetesResearch/AgentBus/messages",
+    "live_connected": false,
+    "status": "HOLD_NATIVE_HOST_UNVERIFIED"
   },
   "artifact_namespace": "/DiabetesResearch/AgentBus/artifacts",
   "handoff_paths": [
@@ -267,5 +270,17 @@
     "promoted": true,
     "operational_certification": "HOLD",
     "certified_gates": 0
+  },
+  "v32r2_required_communication_contract": {
+    "path": "HERD_V32R2_COMMUNICATION_CONTRACT.json",
+    "mandatory_on_startup": true,
+    "canonical_specification_sha256": "1dd3cbd73092b810f934ff32d33e3f4d968c5474c8e92b6ec7462fb417d0ca47",
+    "standalone_operation_if_transport_unavailable": true
+  },
+  "chatgpt_project_github_link": {
+    "path": "CHATGPT_PROJECT_REPOSITORY_LINK.json",
+    "mandatory_for_all_active_chatgpt_projects": true,
+    "host_native_link_verified": false,
+    "activation_when_missing": "HOLD"
   }
 }

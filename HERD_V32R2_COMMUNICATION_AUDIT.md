@@ -1,0 +1,3 @@
+# DiabetesResearch — mandatory HERD V32-R2 alignment
+
+Github: `boberino93-bit/DiabetesResearch`, verified ID 1427427163. Intended native ChatGPT Library message board: `/DiabetesResearch/AgentBus/messages`. Project is registered in central routing as discovery-only. Scheduler binding remains disabled. `CHATGPT_PROJECT_REPOSITORY_LINK.json` requires a host-native ChatGPT Project ID and linked-file readback before an active ChatGPT Project is considered compliant. Native board connection, independently authenticated peer round-trip, and cryptographic grants remain unverified. Operational certification HOLD; GitHub is not a substitute for AgentBus.
