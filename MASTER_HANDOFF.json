@@ -1,0 +1,53 @@
+{
+  "schema": "org-agent-mesh/master-handoff/v1",
+  "project_id": "diabetesresearch",
+  "generation": 0,
+  "updated_at_utc": "2026-10-20T19:00:00Z",
+  "updated_by": {
+    "agent_id": "configuration-preparer",
+    "agent_instance_id": "NON_OPERATIONAL_PREPARATION",
+    "role": "UNASSIGNED",
+    "execution_mode": "CONFIGURATION_ONLY"
+  },
+  "authority": {
+    "canonical_coordination": "/DiabetesResearch/AgentBus/messages",
+    "master_handoff_authority": "CHATGPT_NATIVE_LIBRARY",
+    "authoritative_board_verified": false,
+    "repository_mirror_role": "SOURCE_AND_BACKUP_ONLY"
+  },
+  "current_objective": "Verify native Library board and native project-file link; preserve source and project identity.",
+  "source_state": {
+    "repository": "boberino93-bit/DiabetesResearch",
+    "repository_id": 1427427163,
+    "revision": null,
+    "release": "HERD_V32_R2_SPEC_ONLY",
+    "package_set": "PROJECT_BOOTSTRAP_CONFIGURATION"
+  },
+  "active_agents": [],
+  "expired_agents": [],
+  "workstreams": [],
+  "blockers": [
+    "Native ChatGPT Library board has not been provisioned or independently verified.",
+    "ChatGPT Project internal file bindings are not accessible for mutation from this connector.",
+    "No independent-session signed AgentBus roundtrip or host-scoped grants verified."
+  ],
+  "pending_actions": [
+    {
+      "priority": 1,
+      "action": "Obtain host-side native Library board creation, listing and signed cross-session readback receipts."
+    },
+    {
+      "priority": 2,
+      "action": "Attach/link ChatGPT Project files through its host API or native project interface and verify readback."
+    },
+    {
+      "priority": 3,
+      "action": "Reconcile this project's status with central routing and scheduler registries after verification."
+    }
+  ],
+  "recent_refs": [
+    "PROJECT_MANIFEST.json",
+    "PROJECT_IDENTITY_LOCK.json"
+  ],
+  "latest_checkpoints": []
+}

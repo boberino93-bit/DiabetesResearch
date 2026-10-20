@@ -1,0 +1,42 @@
+{
+  "schema": "org-agent-mesh/project-identity-lock/v1",
+  "project_id": "diabetesresearch",
+  "project_name": "DiabetesResearch",
+  "identity_state": "BOUND_REPOSITORY_IDENTITY_WITH_UNVERIFIED_LIBRARY_BUS",
+  "repository": {
+    "binding_state": "BOUND_VERIFIED",
+    "full_name": "boberino93-bit/DiabetesResearch",
+    "id": 1427427163,
+    "binding_rule": "MUST_BE_EXPLICITLY_CONNECTED_AND_VERIFIED_BEFORE_USE",
+    "identity_verified": true
+  },
+  "forum": {
+    "authority": "CHATGPT_NATIVE_LIBRARY",
+    "namespace": "/DiabetesResearch/AgentBus/messages",
+    "verified": false
+  },
+  "artifact_namespace": "/DiabetesResearch/AgentBus/artifacts",
+  "source_architecture": {
+    "repository": "boberino93-bit/intercommunicationsenhancements",
+    "kit": "NEW_PROJECT_BOOTSTRAP.json",
+    "identity_inheritance": "FORBIDDEN"
+  },
+  "locks": {
+    "project_id_must_match_local_contract": true,
+    "forum_namespace_must_match_local_contract": true,
+    "repository_must_not_be_inferred": true,
+    "cross_project_write_default": "DENY",
+    "identity_conflict_action": "STOP_BEFORE_MUTATION"
+  },
+  "binding_transition": {
+    "from": "UNBOUND",
+    "to": "BOUND_VERIFIED",
+    "requires": [
+      "explicit repository connection or creation",
+      "verified repository full name",
+      "stable repository id when available",
+      "local contract update",
+      "central registry update"
+    ]
+  }
+}

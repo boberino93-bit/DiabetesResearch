@@ -1,0 +1,55 @@
+{
+  "schema": "herd/v32r2/native-library-agentbus-project-config/v1",
+  "project_id": "diabetesresearch",
+  "specification": {
+    "version": "V32-R2",
+    "promoted": true,
+    "operational_certification": "HOLD",
+    "certified_release_gates": 0
+  },
+  "logical_board_path": "/DiabetesResearch/AgentBus/messages",
+  "logical_artifacts_path": "/DiabetesResearch/AgentBus/artifacts",
+  "provider": "CHATGPT_NATIVE_LIBRARY",
+  "authentication": {
+    "signed_agent_identities_required": true,
+    "host_issued_project_scoped_grants_required": true,
+    "independent_root_pin_attestation_required": true,
+    "chat_account_is_not_agent_identity": true
+  },
+  "messages": {
+    "types": [
+      "TASK_PROPOSAL",
+      "TASK_RESULT",
+      "OBSERVATION",
+      "CHALLENGE",
+      "ACK"
+    ],
+    "ed25519_signatures": true,
+    "immutable_create_receipts": true,
+    "exact_byte_readback": true,
+    "replay_rejection": true,
+    "independent_session_roundtrip_required": true
+  },
+  "capabilities": {
+    "native_library_folder_verified": false,
+    "native_library_host_connector_verified": false,
+    "library_cross_session_visibility_verified": false,
+    "host_grants_issued": false,
+    "signed_independent_roundtrips": 0,
+    "live_connected": false
+  },
+  "not_authorized_fallbacks": [
+    "JFROG",
+    "GITHUB",
+    "GOOGLE_DRIVE",
+    "SLACK",
+    "SAME_HOST_DIRECTORY",
+    "SIMULATION"
+  ],
+  "standalone_architecture": {
+    "independent_of_agentbus": true,
+    "transport_failure_blocks_only_communication": true
+  },
+  "privacy": "No secrets, personal records or protected source payloads in PUBLIC reference-only bus",
+  "note": "Configuration only. GitHub writes do not create a native Library folder, host grants, or live communication."
+}

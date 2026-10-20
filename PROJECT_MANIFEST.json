@@ -1,0 +1,62 @@
+{
+  "schema": "org-agent-mesh/project-manifest/v1",
+  "project_id": "diabetesresearch",
+  "project_name": "DiabetesResearch",
+  "status": "CONFIGURATION_BOOTSTRAPPED_TRANSPORT_UNVERIFIED",
+  "purpose": "Independent diabetes research, source verification, and reproducible evidence analysis; no private medical information is authorized for publication.",
+  "repository": {
+    "binding_state": "BOUND_VERIFIED",
+    "full_name": "boberino93-bit/DiabetesResearch",
+    "id": 1427427163,
+    "identity_verified": true
+  },
+  "forum": {
+    "authority": "CHATGPT_NATIVE_LIBRARY",
+    "namespace": "/DiabetesResearch/AgentBus/messages",
+    "repository_view": {
+      "mode": "NONE",
+      "path": null
+    },
+    "capability_status": "NOT_VERIFIED",
+    "cross_session_visibility_verified": false
+  },
+  "artifact_namespace": "/DiabetesResearch/AgentBus/artifacts",
+  "bootstrap_contract": "AGENT_BOOTSTRAP.json",
+  "identity_lock": "PROJECT_IDENTITY_LOCK.json",
+  "bootstrap_order": "BOOTSTRAP_ORDER.json",
+  "master_handoff": "MASTER_HANDOFF.json",
+  "human_entrypoint": "START_HERE.md",
+  "charter": "PROJECT_CHARTER.md",
+  "hardening_status": "HARDENING_STATUS.md",
+  "roles": [
+    "primary",
+    "manager",
+    "research"
+  ],
+  "execution_modes": [
+    "recovery",
+    "qa",
+    "build"
+  ],
+  "architecture_source": {
+    "repository": "boberino93-bit/intercommunicationsenhancements",
+    "kit": "NEW_PROJECT_BOOTSTRAP.json",
+    "protocol": "protocols/new_project_bootstrap.md",
+    "handoff_protocol": "protocols/agent_state_handoff.md"
+  },
+  "directories": [
+    ".interagent/messages",
+    ".interagent/directives",
+    ".interagent/capacity",
+    ".interagent/state",
+    ".interagent/handoffs",
+    ".swarm"
+  ],
+  "registration": {
+    "central_registry": "boberino93-bit/intercommunicationsenhancements:PROJECT_ROLE_ROUTING_REGISTRY.json",
+    "state": "PENDING_AGENTBUS_HOST_VERIFICATION"
+  },
+  "project_file_linkage": "PROJECT_FILE_LINKAGE.json",
+  "agentbus_configuration": "AGENTBUS_CONFIG.json",
+  "operational_certification": "HOLD"
+}

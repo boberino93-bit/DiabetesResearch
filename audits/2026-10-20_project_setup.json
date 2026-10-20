@@ -1,0 +1,13 @@
+{
+  "schema": "herd/prospective-audit-event/v1",
+  "event_time_utc": "2026-10-20T19:00:00Z",
+  "event_type": "PROJECT_BOOTSTRAP_GITHUB_CONFIGURATION",
+  "requester": "current ChatGPT conversation user (not cryptographically attested)",
+  "target": "boberino93-bit/DiabetesResearch",
+  "requested_change": "Establish local project integration and proposed native Library AgentBus configuration",
+  "disposition": "CONFIGURATION_ONLY_NO_LIBRARY_OR_PROJECT_MUTATION",
+  "original_history_mutated": false,
+  "owner_crypto_identity_attested": false,
+  "repository_accepted_as_source_only": true,
+  "separately_verified_operational_gates": 0
+}

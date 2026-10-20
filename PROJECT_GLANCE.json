@@ -1,0 +1,20 @@
+{
+  "schema": "org-agent-mesh/project-glance/v1",
+  "project_id": "diabetesresearch",
+  "repository": "boberino93-bit/DiabetesResearch",
+  "observed_at_utc": "2026-10-20T19:00:00Z",
+  "status": "UNKNOWN",
+  "current_focus": "Project configuration seeded, no verified live AgentBus connection.",
+  "blockers": [
+    "Native Library AgentBus missing verified host receipt",
+    "Internal ChatGPT Project files have not been linked through a host-native interface."
+  ],
+  "next_action": "Complete project-local bootstrap/charter work and refresh this snapshot on the first material transition.",
+  "last_material_change": "GitHub project configuration authored; operational capabilities not activated.",
+  "evidence_refs": [
+    "AGENT_BOOTSTRAP.json",
+    "PROJECT_MANIFEST.json",
+    "MASTER_HANDOFF.json"
+  ],
+  "repository_id": 1427427163
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "herd/v32r2/internal-chatgpt-project-file-link/v1",
+  "project_id": "diabetesresearch",
+  "github_repository": "boberino93-bit/DiabetesResearch",
+  "repository_id": 1427427163,
+  "chatgpt_project_id": null,
+  "host_native_file_refs": [],
+  "file_bindings_verified": false,
+  "project_link_status": "PENDING_HOST_PROJECT_FILE_INTERFACE",
+  "private_sources_must_not_be_exported_to_github": true,
+  "source_integrity_notes": [
+    "RETRIEVAL_FAILURE != ABSENCE_OF_EVIDENCE",
+    "MATERIALIZED != INSPECTED"
+  ],
+  "integration_note": "Requires authorized native ChatGPT Project-file tools/readback, not GitHub repository access."
+}
